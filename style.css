@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Mochiy+Pop+P+One&family=Montserrat:wght@100;400&family=Playpen+Sans&family=Roboto:wght@900&family=Varela+Round&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(215, 191, 157), rgb(137, 112, 164));;
+    
+    
+}
+
+.button-container {
+    border: 2px solid rgb(62, 50, 88);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+  }
+
+  button {
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    height: 75px;
+    font-family: Barlow, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 2px 5px black;
+    background: linear-gradient(to top, #6a59a1, #9281d9);
+    border: 2px solid rgb(86, 71, 140);
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  button:hover {
+    background: linear-gradient(to bottom, #4e4c59, #716385);
+  }
